@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced AI in Medicine Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced AI in Medicine: Predictive Analysis Demo</h1>
+        <p>Enter comprehensive patient information and receive a predictive health analysis.</p>
+        <div class="input-form">
+            <input type="number" id="age" placeholder="Age" min="0" max="100">
+            <input type="text" id="symptoms" placeholder="Symptoms, separated by commas">
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <button onclick="simulateAnalysis()">Analyze</button>
+        </div>
+        <canvas id="analysisChart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
